@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TurkBilimAdamlari</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_matematik">Matematik</string>
+    <string name="menu_fizik">Fizik</string>
+    <string name="menu_kimya">Kimya</string>
+    <string name="menu_biyoloji">Biyoloji</string>
+    <string name="menu_tarih">Tarih</string>
+    <string name="menu_cografya">Coğrafya</string>
+    <string name="menu_proje">Proje Hakkında</string>
+</resources>
