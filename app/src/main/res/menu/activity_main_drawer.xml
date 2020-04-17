@@ -23,9 +23,9 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_kimya" />
         <item
-            android:id="@+id/nav_biyoloji"
+            android:id="@+id/nav_tip"
             android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_biyoloji" />
+            android:title="@string/menu_tip" />
 
         <item
             android:id="@+id/nav_tarih"

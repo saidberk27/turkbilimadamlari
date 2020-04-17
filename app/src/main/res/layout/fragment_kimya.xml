@@ -7,14 +7,239 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragmentkimya.fragment_kimya">
 
-    <TextView
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fragment_kimya"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/kimyabaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türk Kimyagerler"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40sp" />
+
+            <TextView
+                android:id="@+id/cabir_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cabir bin Hayyan (721 - 815)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cabir_imaj"
+                    android:layout_width="232dp"
+                    android:layout_height="302dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/harezmi2"
+                    app:srcCompat="@drawable/harezmi2" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/cabir_yan"
+                    android:layout_width="257dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Batıda daha ziyâde Geber olarak tanınan, Abbâsîler döneminde yaşamış ve İslâmiyet'te fen bilimlerinin temelini atmış olan çok yönlü bir fen bilgini; simyacı, kimyacı ve eczacı; fizikçi, astronom ve astrolog; tıp ve fizik tedavi uzmanı; mühendis, coğrafyacı, filozof ve sûfi."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/cabir_esas"
+                android:layout_width="match_parent"
+                android:layout_height="282dp"
+                android:text="Kimya dışında Eczacılık, Metalürji, Astroloji, Felsefe, Fizik ve Müzik gibi geniş alanda 400 ü aşan eser bıraktığı söylense de ancak 20 civarında eseri bugüne kalmıştır.  Nitrik asit, Hidrojen klorür ve Sülfürik asit'in rafine ve kristalize yöntemlerini bulduğu Kral suyu'nu icat ettiği ve Sitrik asit, Asetik asit ve Tartarik asiti keşfetiği düşünülmektedir. İmbiği geliştirmiş ve kendisinin ortaya attığı Baz kavramıyla Kimya'nın gelişmesine katkıda bulunmuştur. Ayrıca daha sonra zehirlilerin zehirlisi olan arsenik tozunu elde eden ilk kişidir. Agathondaemon, Hermes Trismegistus, Pisagor ve Sokrates'i saydığı ve Eski Yunan, Eski Mısır ve Şia Sufizminden etkilendiği düşünülmektedir."
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+
+            <TextView
+                android:id="@+id/razi_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Er Râzi (865 - 925)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/razi_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/ali_kuscu"
+                    app:srcCompat="@drawable/ali_kuscu" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/razi_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="300sp"
+                    android:layout_weight="1"
+                    android:text="Simyacı, kimyager, hekim ve filozof.Gençlik yıllarında edebiyat ve musiki ile ilgilenmiştir ve geçimini kuyumculuk yaparak sağlamıştır.Râzî'nin eserlerinin hemen hemen hepsi Latinceye çevrilmiştir. "
+                    android:textSize="18.5sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/kuscu_esas"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:text="Razî eczacılık, simya, müzik ve felsefe dallarında son derece önemli katkılar yapmıştır. Farklı alanlarla alakalı yaklaşık 200 kitap ve makalesi vardır.Pediyatri'nin babası olarak bilinir.Ayrıca göz bilimleri konusunda da otorite kabul edilmiştir. Alkol ve gazyağını bulan ve çiçek hastalığını kızamıktan farklı olduğunu ilk keşfeden kişidir.İngiliz oryantalist Edward Granville Brown'a göre tüm zamanların en yetkin bilim insanlarından biridir.Daha çok tıp-eczacılık alanındaki başarısıyla tanınmıştır. İS 750 yılından sonra Türk ve Pers kültürlerinin katılmasıyla kozmopolit bir hal alan İslam medeniyeti her alanda ilerleme kaydetmeye başlamıştır. Bu dönemde birçok İslam şehrinde büyük kütüphaneler kurulmuştur. Bunlar aynı zamanda araştırma merkezleriydi."
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/oktay_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oktay SİNANOĞLU(1935 - 2015)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/oktay_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="335dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/cahit_arf"
+                    app:srcCompat="@drawable/cahit_arf" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/oktay_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="335dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Babası Nüzhet Haşim Sinanoğlu'nun başkonsolos olarak görev yaptığı İtalya'nın Bari şehrinde doğdu. II. Dünya Savaşı'nın başlamasının ardından 1939'da ailesiyle Türkiye'ye döndü. Oktay Sinanoğlu, 1953 yılında TED Ankara Yenişehir Lisesi'nden birincilikle mezun oldu. 1953 yılında okul bursu ile ABD'ye gitti."
+                    android:textSize="16.5sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/cahitarf_esas"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                android:text="1997 yılında Yale'den emekli olmasının ardından Yıldız Teknik Üniversitesi'nde profesör olarak çalışmaya başladı ve 2002 senesinde kadar Yıldız Teknik Üniversitesi kimya bölümünde çalışmaya devam etti.Sinanoğlu birçok bilimsel kitap ve makale yazdı ve birçoklarına da katkıda bulundu. Ayrıca 'Hedef Türkiye' ve 'Bye Bye Türkçe' (2005) gibi eserlere de imza attı.Yaşamı boyunca kuantum mekaniğine birçok katkıda bulundu. P.A.M. Dirac'in de üzerinde uğraştığı ancak çözemediği 'Kuantum mekaniği'nde Hilbert uzayının topolojisi ve içerdiği yüksek simetrileri problemini çözdü."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <TextView
+                android:id="@+id/aziz_sancar_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aziz SANCAR (1946 - ?)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/aziz_sancar_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/kerim_erim"
+                    app:srcCompat="@drawable/kerim_erim" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/aziz_sancar_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="1997 yılından beri Amerika Birleşik Devletleri'nde Kuzey Karolina Üniversitesi, Chapel Hill Sarah Graham Kenan Biyokimya ve Biyofizik Programı’nda görevli Prof. Sancar, son 20 yıldır DNA onarımının pek çok parçasının tanımlanmasında kullanılan biyokimyasal yaklaşımlara yaptığı öncülükle tanınıyor. Mehmet Özdoğan ile birlikte ABD Ulusal Bilimler Akademisi'ne seçilen ilk Amerikalı Türk olarak tanınır. Hücrelerin hasar gören DNA'ları nasıl onardığını ve genetik bilgisini koruduğunu haritalandıran araştırmaları sayesinde 2015 Nobel Kimya Ödülü'nü kazanmıştır."
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/aziz_sancar_esas"
+                android:layout_width="match_parent"
+                android:layout_height="367dp"
+                android:text="DNA onarımı, hücre dizilimi, kanser tedavisi ve biyolojik saat üzerinde çalışmalarını sürdüren Sancar, 415 bilimsel makale ve 33 kitap yayınladı. Sancar, kanser tedavisinde sirkadiyen saat kullanımıyla ödüller aldı. 2001 yılında Amerikan Kimya Cemiyeti tarafından verilen Kuzey Carolina Seçkin Kimyager Ödülü'nü almaya hak kazanan Sancar, 2005 yılında bilim dünyasının en prestijli üyelikleri arasında yer alan ABD Ulusal Bilimler Akademisi’ne seçilerek bu akademiye seçilen ilk Amerikalı Türk oldu. Bu ödülü aldıktan sonra, ABD'de okuyan Türk öğrencilerine yardım etmek ve Türk-Amerikan ilişkilerini geliştirmek amacıyla eşiyle birlikte Aziz Gwen Sancar Vakfı'nı kurarak ABD'nin Kuzey Carolina eyaletinde 'Carolina Türk Evi' isimli bir öğrenci misafirhanesi açtı. 2006 yılında Türkiye Bilimler Akademisi’ne aslî üye olarak seçildi.."
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

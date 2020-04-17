@@ -2,10 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragmentmatematik"
+    android:id="@+id/tipfragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragmentmatematik.fragment_matematik">
+    tools:context=".ui.tipfragment.tip_fragment">
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,10 +18,10 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/matematikbaslik"
+                android:id="@+id/tip_baslik"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Türk Matematikçiler"
+                android:text="Türk Tıpçılar"
                 android:textAlignment="center"
                 android:textSize="48sp" />
             <Space
@@ -28,10 +29,10 @@
                 android:layout_height="40sp" />
 
             <TextView
-                android:id="@+id/harezmi_baslik"
+                android:id="@+id/sina_baslik"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Harezmi (770 - 840)"
+                android:text="İbn-i Sina(980 - 1037)"
                 android:textSize="28sp" />
 
             <LinearLayout
@@ -40,12 +41,12 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/harezmi_imaj"
+                    android:id="@+id/sina_imaj"
                     android:layout_width="232dp"
                     android:layout_height="302dp"
                     android:layout_gravity="left"
-                    android:src="@drawable/harezmi2"
-                    app:srcCompat="@drawable/harezmi2" />
+                    android:src="@drawable/sina"
+                    app:srcCompat="@drawable/sina" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -53,13 +54,13 @@
                     android:layout_weight="0.2" />
 
                 <TextView
-                    android:id="@+id/harezmi_yan"
-                    android:layout_width="173dp"
+                    android:id="@+id/sina_yan"
+                    android:layout_width="172dp"
                     android:layout_height="300sp"
                     android:layout_gravity="right"
                     android:layout_weight="1"
-                    android:text="Tam adı Muhammed Bin Musa el-Harezmi olan bu büyük bilim adamı, Horasan’da (Özbekistan’ın Karizmi kentinde) doğmuştur.Hayatının büyük bir bölümü Bağdat’da (Beytü’l Hikme’de) matematik, astronomi ve coğrafya konularında çalışarak geçmiştir."
-                    android:textSize="17sp" />
+                    android:text="İbn Sînâ olağan üstü bir zekâya sahip olduğu için küçük yaşta dikkatleri üzerinde topladı. Önce Kur’an’ı ezberledi; dil, edebiyat, akaid ve fıkıh öğrenimi gördü.İbn Sînâ ayrıca babasından geometri, aritmetik ve felsefe konusunda ilk bilgilerini aldıktan sonra babasının isteği üzerine Mahmûd el-Messâh’tan Hint aritmetiği okudu."
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
@@ -68,11 +69,11 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/harezmi_esas"
+                android:id="@+id/sina_esas"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="El Harezmi matematiğin yanı sıra astronomi ve coğrafya ilimlerinde de eserler vermiştir. Astronomik cetvellerle ilgili kitaplar yazmış ve bu eserler 12. y.y. da Latince’ ye çevrilmiştir. Bunu yanısıra Ptolemy’nin coğrafya kitabını düzeltmelerle yeniden yazmış, 70 tane bilim adamıyla birlikte çalışarak 830 yılında bir dünya haritası çizmiştir. Dünyanın çevresini ve hacmini hesaplama çalışmalarında yer almıştır. Güneş saatleri, usturlaplar ve saatler üzerine yazılmış eserleri de vardır."
-                android:textSize="17sp" />
+                android:layout_height="241dp"
+                android:text="İbn-i Sina, Kuşyar isimli bir hekimin yanında tıp eğitimi aldı. Değişik konular üzerine 240'ı günümüze gelen 450 kadar makale yazdı. Elimizdeki yazıların 150 tanesi felsefe 40 tanesi de tıp üzerinedir. Eserlerinin en ünlüleri felsefe ve fen konularını içeren çok geniş bir çalışma olan Kitabü'ş-Şifa (İyileşme Kitabı) ile El-Kanun fi't-Tıb'dır (Tıbbın Kanunu). Bu iki eser Orta Çağ üniversitelerinde okutulmuştur. Hatta bu eser Montpellier ve Louvain'de 1650 yılına kadar ders kitabı olmuştur."
+                android:textSize="18dp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -82,10 +83,10 @@
 
 
             <TextView
-                android:id="@+id/ali_kuscu_baslik"
+                android:id="@+id/aksemsettin_baslik"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ali Kuşçu (1474 - 1525)"
+                android:text="Akşemsettin (1389 - 1459)"
                 android:textSize="28sp" />
 
             <LinearLayout
@@ -94,13 +95,13 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/alikuscu_imaj"
+                    android:id="@+id/aksemsettin_imaj"
                     android:layout_width="149dp"
                     android:layout_height="300sp"
                     android:layout_gravity="left"
                     android:layout_weight="1"
-                    android:src="@drawable/ali_kuscu"
-                    app:srcCompat="@drawable/ali_kuscu" />
+                    android:src="@drawable/ak"
+                    app:srcCompat="@drawable/ak" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -108,12 +109,12 @@
                     android:layout_weight="0.2" />
 
                 <TextView
-                    android:id="@+id/kuscu_yan"
+                    android:id="@+id/aksemsettin_yan"
                     android:layout_width="100dp"
                     android:layout_height="300sp"
                     android:layout_weight="1"
-                    android:text="Ali Kuşçu 1403 yılında doğdu. Astronomi ve matematik alanlarında çalıştı. Gök bilimi alanında yaptığı çalışmalar ve verdiği eserlerle tanınır. Gerçek ve tam adı Ali Bin Muhammed’dir."
-                    android:textSize="20sp" />
+                    android:text="Şeyh Hamza'nın oğlu olarak, 1389 yılında Şam 'da doğmuştur. Şeyh Hamza (Kurtboğan) ailesiyle beraber geldiği Amasya'da küçük Şemsettin'i pek iyi yetiştirmiştir. Akşemseddin'in soyu, baba tarafından Ebu Bekir'e dayanmaktadıt."
+                    android:textSize="17sp" />
 
             </LinearLayout>
 
@@ -122,10 +123,10 @@
                 android:layout_height="20sp" />
 
             <TextView
-                android:id="@+id/kuscu_esas"
+                android:id="@+id/aksemsettin_esas"
                 android:layout_width="match_parent"
-                android:layout_height="187dp"
-                android:text="Elçilik yapmak için İstanbul’a geldiğinde Fatih Sultan Mehmet’le tanışmış, sultana çalışmalarından bahsetmiştir. Bunun üzerine Fatih, kendisini İstanbul’da yaşaması için ikna etmiştir.Matematik ve astronomi alanında medresede ders veren Ali Kuşçu bu alanda pek çok öğrenci yetiştirerek Osmanlı’da bilimin gelişmesine önemli katkılarda bulundu."
+                android:layout_height="372dp"
+                android:text="Akşemseddin, bilim'de ve tasavvufta olduğu gibi, tıp ve eczacılık alanında da büyük bir üne sahipti. Fakat kaynaklarda Akşemseddin'in tıp ilmini kimden ve nasıl öğrendiğine dair net bir bilgi yoktur. Bununla alâkalı İskoç oryantalist Elias John Gibb, History of Ottoman Poetry adlı eserinde, Akşemseddin'in tıp alanındaki ilmini, Hacı Bayram Veli ile beraber olduğu yıllarda elde ettiğini kaydetmekte ve kendisinden âlim ve mübarek bir kimse diye söz etmektedir. Sadece beden hastalıkların değil, aynı zamandan ruh hastalıklarının da hekimi olan Akşemseddin, ruh hastalıklarını da tedâvi ederdi."
                 android:textSize="18sp" />
 
             <Space
@@ -135,10 +136,10 @@
 
 
             <TextView
-                android:id="@+id/cahitarf_baslik"
+                android:id="@+id/gazi_baslik"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cahit ARF(1910 - 1997)"
+                android:text="Gazi YAŞARGİL(1925 - ?)"
                 android:textSize="28sp" />
 
             <LinearLayout
@@ -147,13 +148,13 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/cahitarf_imaj"
+                    android:id="@+id/gazi_imaj"
                     android:layout_width="149dp"
                     android:layout_height="335dp"
                     android:layout_gravity="left"
                     android:layout_weight="1"
-                    android:src="@drawable/cahit_arf"
-                    app:srcCompat="@drawable/cahit_arf" />
+                    android:src="@drawable/gazi"
+                    app:srcCompat="@drawable/gazi" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -161,13 +162,13 @@
                     android:layout_weight="0.2" />
 
                 <TextView
-                    android:id="@+id/cahitarf_yan"
+                    android:id="@+id/gazi_yan"
                     android:layout_width="100dp"
                     android:layout_height="335dp"
                     android:layout_gravity="right"
                     android:layout_weight="1"
-                    android:text="1910 yılında Selanik’te doğdu. Yüksek öğrenimini Fransa’da Ecole Normale Superieure’de tamamladı (1932). Bir süre Galatasaray Lisesi’nde matematik öğretmenliği yaptıktan sonra İstanbul Üniversitesi Fen Fakültesi’nde doçent adayı olarak çalıştı. "
-                    android:textSize="16.5sp" />
+                    android:text="Ankara Atatürk Lisesinde lise eğitimini tamamladı. Ankara Üniversitesi'ni kazandı. 1944 yılında Almanya'daki Friedrich Schiller Üniversitesi'nde çalışmalarını sürdürdü.1945'te Basel Üniversitesi'ne ve aynı üniversitede 1950 yılında doktorasını yaptı. Daha sonra Bern Üniversitesi'nde yardımcı profesör olarak psikiyatri bölümünde görev aldı."
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
@@ -176,10 +177,10 @@
                 android:layout_height="20sp" />
 
             <TextView
-                android:id="@+id/cahitarf_esas"
+                android:id="@+id/gazi_esas"
                 android:layout_width="match_parent"
-                android:layout_height="187dp"
-                android:text="Arf İnönü Armağanı’nı (1948) ve Tübitak Bilim Ödülü’nü kazandı (1974). Cebir ve Sayılar Teorisi üzerine uluslararası bir sempozyum 1990′da 3 ve 7 Eylül tarihleri arasında Arf’in onuruna Silivri’de gerçekleştirilmiştir. Halkalar ve Geometri üzerine ilk konferanslarda 1984′te İstanbul’da yapılmıştır. Arf, matematikte geometri kavramı üzerine bir makale sunmuştur. Cahit Arf 1997 yılının Aralık ayında bir kalp rahatsızlığı nedeniyle aramızdan ayrıldı."
+                android:layout_height="214dp"
+                android:text="Mikrosinir cerrahisinin kurucusu olan Gazi Yaşargil 'Beyin ve Sinir Cerrahı', 'Profesör Doktor', 'Yüzyılın Beyin Cerrahı'unvanlarına sahiptir. Yaşargil epilepsi ve beyin tümörünü kendi bulduğu yöntemlerle tedavi etmiş. 1953'ten emekli olduğu 1999 tarihine dek Zürih Üniversitesi ve Zürih Üniversite Hastanesindeki Sinir cerrahisi Departmanında ilk hekim, başhekim, sonrasında profesör ve başkan olmuştur. 1999'da Geleneksel Sinir Cerrahları Kongresinde 'Yüzyılın Sinir Cerrahı' (1950-1999) seçilmiştir."
                 android:textSize="16sp" />
 
             <Space
@@ -188,10 +189,10 @@
 
 
             <TextView
-                android:id="@+id/kerim_erim_baslik"
+                android:id="@+id/lale_baslik"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kerim ERİM (1894 - 1952)"
+                android:text="Lale TOKGÖZOĞLU(1957 - ?)"
                 android:textSize="28sp" />
 
             <LinearLayout
@@ -200,13 +201,13 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/kerim_erim_imaj"
+                    android:id="@+id/lale_imaj"
                     android:layout_width="149dp"
                     android:layout_height="300sp"
                     android:layout_gravity="left"
                     android:layout_weight="1"
-                    android:src="@drawable/kerim_erim"
-                    app:srcCompat="@drawable/kerim_erim" />
+                    android:src="@drawable/lale"
+                    app:srcCompat="@drawable/lale" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -214,13 +215,14 @@
                     android:layout_weight="0.2" />
 
                 <TextView
-                    android:id="@+id/kerim_erim_yan"
+                    android:id="@+id/lale_yan"
                     android:layout_width="100dp"
                     android:layout_height="300sp"
                     android:layout_gravity="right"
                     android:layout_weight="1"
-                    android:text="Matematikçi, mekanik bilgini. İstanbul Yüksek Mühendis Mektebi'ni bitirdikten (1914) sonra Berlin Üniversitesi'nde Albert Einstein'in yanında doktorasını yaptı (1919). Doktora unvanı olan ilk Türk matematikçidir."
-                    android:textSize="18.5dp" />
+                    android:text="Hacettepe Üniversitesi Tıp Fakültesi’ni 1982’de bitirdi.1991’de doçent, 1998’de profesör oldu.
+1988-1990 arasında ABD’de Houston,Texas’taki Baylor Tıp Fakültesi’nde kardiyoloji üst ihtisası yaptı."
+                    android:textSize="18dp" />
 
             </LinearLayout>
 
@@ -229,15 +231,17 @@
                 android:layout_height="20sp" />
 
             <TextView
-                android:id="@+id/kerim_erim_esas"
+                android:id="@+id/lale_esas"
                 android:layout_width="match_parent"
-                android:layout_height="228dp"
-                android:text="Kerim Erim, Türkiye'de yüksek matematik öğretiminin yaygınlaşmasında ve çağdaş matematiğin yerleşmesinde etkin rol oynadı. Matematik ve fizik bilimlerinin felsefe ile olan ilişkileri üzerinde de çalışmalarda bulunan Erim’in Almanca ve Türkçe eserleri bulunmaktadır. Ürünleriyle matematikte bir Türk okulu kurmaya çalıştı. Yetenekli öğrencilere yurtdışında öğrenim olanakları yaratarak genç bir matematikçi kuşağının yetişmesi konusunda uğraş verdi."
+                android:layout_height="248dp"
+                android:text="
+Halen Avrupa Ateroskleroz Derneği genel sekreterliği, Dünya Ateroskleroz Derneği Avrupa Federasyon başkanlığı ve Türk Kardiyoloji Derneği başkan yardımcılığı görevlerini yürütmektedir. Ayrıca Avrupa Kardiyoloji Derneği Ateroskleroz çalışma grubu başkan yardımcısıdır.Avrupa Kardiyoloji Derneği Araştırma ve burs komisyonunda yer almaktadır.European Science Foundation’un türkiye temsilcisidir.ve Hacettepe Üniversitesi'nde öğretim görevlisi olarak görev yapmaktadır.
+"
                 android:textSize="17sp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20dp" />
+                android:layout_height="57dp" />
 
         </LinearLayout>
     </ScrollView>

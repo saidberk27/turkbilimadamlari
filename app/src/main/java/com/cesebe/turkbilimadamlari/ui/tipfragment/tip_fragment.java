@@ -1,4 +1,4 @@
-package com.cesebe.turkbilimadamlari.ui.fragmentbiyoloji;
+package com.cesebe.turkbilimadamlari.ui.tipfragment;
 
 import androidx.lifecycle.ViewModelProviders;
 
@@ -14,25 +14,25 @@ import android.view.ViewGroup;
 
 import com.cesebe.turkbilimadamlari.R;
 
-public class fragment_biyoloji extends Fragment {
+public class tip_fragment extends Fragment {
 
-    private FragmentBiyolojiViewModel mViewModel;
+    private TipFragmentViewModel mViewModel;
 
-    public static fragment_biyoloji newInstance() {
-        return new fragment_biyoloji();
+    public static tip_fragment newInstance() {
+        return new tip_fragment();
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_biyoloji_layout, container, false);
+        return inflater.inflate(R.layout.fragment_tip, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(FragmentBiyolojiViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(TipFragmentViewModel.class);
         // TODO: Use the ViewModel
     }
 

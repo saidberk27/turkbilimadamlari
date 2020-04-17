@@ -7,14 +7,241 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragmentcografya.fragment_cografya">
 
-    <TextView
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fragment_cografya"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/cogbaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türk Coğrafyacılar"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40sp" />
+
+            <TextView
+                android:id="@+id/kasgar_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaşgarlı Mahmut (1008-1105)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/kasgar_imaj"
+                    android:layout_width="232dp"
+                    android:layout_height="302dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/kasgar"
+                    app:srcCompat="@drawable/kasgar" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/kasgar_yan"
+                    android:layout_width="172dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Kâşgarlı Mahmud, 1008 yılında Kâşgar’da dünyaya geldi.Kendisinin verdiği bilgilerden, Türk tarihinin önemli devletlerinden birisi olan Karahanlı Devleti'nin hanedan sülalesine mensup olduğu anlaşılmaktadır."
+                    android:textSize="17.5sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/kasgar_esas"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                android:text="Dîvânü Lugâti't-Türk isimli, dünyaca bilinen eserin yazarıdır. Eserini 1072 yılında Bağdat’ta yazmaya başladı. 12 Şubat 1074 tarihinde tamamladı. Eserin tamamlanmasından sonraki iki yıl içerisinde dört defa baştan sona gözden geçirerek 1076‘da son şeklini verdi. 1077 Ocağında bitirilmiştir. Eserini Abbasi Halifesi Muktedî-Biemrillah’ın oğlu Ebü’l-Kasım Abdullah’a sunmuştur. Kitabın tek yazması olan nüsha bugün İstanbul’da Millet Kütüphanesinde muhafaza edilmektedir."
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+
+            <TextView
+                android:id="@+id/piri_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pîrî Reîs (1465 - 1554)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/piri_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/piri"
+                    app:srcCompat="@drawable/piri" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/piri_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="300sp"
+                    android:layout_weight="1"
+                    android:text="Osmanlı Türk'ü denizci ve kartografı. Amerika'yı gösteren Dünya haritaları ve Kitab-ı Bahriye adlı denizcilik kitabıyla tanınmıştır.."
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/piri_esas"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:text="Pîrî, denizciliğe amcası Kemal Reis'in yanında başladı; 1487-1493 yılları arasında birlikte Akdeniz'de korsanlık yaptılar; Sicilya, Korsika, Sardunya ve Fransa kıyılarına yapılan akınlara katıldılar. 1486'da Endülüs'te Müslümanların hâkimiyetindeki son şehir olan Gırnata'da katliama uğrayan Müslümanlar Osmanlı Devleti'nden yardım isteyince o yıllarda deniz aşırı sefere çıkacak donanması bulunmayan Osmanlı Devleti, Kemal Reis'i Osmanlı Bayrağı altında İspanya'ya gönderdi. Bu sefere katılan Pîrî Reis, amcası ile birlikte Müslümanları İspanya'dan Kuzey Afrika'ya taşıdı."
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/matrak_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matrakçı Nasuh(1480 - 1564)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/matrak_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="335dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/nasuh"
+                    app:srcCompat="@drawable/nasuh" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/matrak_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="335dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Osmanlı İmparatorluğu'nda 16. yüzyılda yaşamış Boşnak asıllı devlet adamı, polimat, matematikçi, öğretmen, tarihçi, coğrafyacı, haritacı, kılıç ustası, denizci, mucit, ressam, çiftçi ve minyatürcü"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/matrak_esas"
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:text="Bosna'nın Visoko kasabasında doğan Matrakçı Nasuh,hem Piyade hem de Devşirme sisteminden geçen yetenekli bir Yeniçeri, kılıç ustası ve zekasıyla tanınan keskin nişancıydı. Beş dil biliyordu ve Osmanlı donanması'na katıldı."
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <TextView
+                android:id="@+id/seydi_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S. Ali Reis(1498 - 1562)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/seydi_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/sali"
+                    app:srcCompat="@drawable/sali" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/seydi_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Seydi Ali Reis; 1498-1562 tarihlerinde yaşayıp Mısır Kapudanlığı da yapmış olan Türk amirali. Coğrafya, Matematik, Astronomi bilgini.
+Aynı zamanda da bir Divan şairi olan Seydi Ali Reis, şiirlerinde İstanbul Türçesi ile beraber Çağatay Türkçesi de kullanmıştır."
+                    android:textSize="18.5dp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/seydi_esas"
+                android:layout_width="match_parent"
+                android:layout_height="309dp"
+                android:text="Sinoplu denizci bir ailenin oğlu olarak 1492'de, Galata İstanbul'da doğdu. Dedesi, Fatih Sultan Mehmet zamanında tersane kethüdalığında görev yapmıştır. Babası Hüseyin Ağa ise kendi zamanında Darüssınaa Kethüdalığı'nda bulunmuştu. Kendisi de tersanede reis olarak çalışmakla birlikte devrin hükümdarının Akdeniz'e olan ilgisi münasebetiyle birçok sefere çıkma şansı yakaladı."
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="57dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

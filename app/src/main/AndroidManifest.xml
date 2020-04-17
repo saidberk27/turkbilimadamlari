@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fragment_proje_activity"></activity>
+        <activity android:name=".fragment_tip_activity"></activity>
+        <activity android:name=".fragment_tip" />
+        <activity android:name=".fragment_proje_activity" />
         <activity android:name=".fragment_cografya_activity" />
         <activity android:name=".fragment_tarih_activity" />
-        <activity android:name=".fragment_biyoloji_activity" />
         <activity android:name=".fragment_kimya_activity" />
         <activity android:name=".fragment_fizik_activity" />
         <activity android:name=".matematik" />

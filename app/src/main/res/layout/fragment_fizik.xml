@@ -7,14 +7,240 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragmentfizik.fragment_fizik">
 
-    <TextView
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fragment_fizik"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fizikbaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türk Fizikçiler"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40sp" />
+
+            <TextView
+                android:id="@+id/cezeri_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El-Cezerî (1136 - 1206)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cezeri_imaj"
+                    android:layout_width="232dp"
+                    android:layout_height="302dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/cezeri"
+                    app:srcCompat="@drawable/cezeri" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/cezeri_yan"
+                    android:layout_width="172dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="İslam'ın Altın Çağında çalışmalar yapan bilim insanı ve mühendis. Sibernetiğin ilk adımlarını attığı ve ilk robotu yapıp çalıştırdığı kabul edilen Cezeri'nin Leonardo da Vinci'ye ilham kaynağı olduğu düşünülür."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/harezmi_esas"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+                android:text="Cezeri, otomatik kontrollü makinelerin ilki sayılan Jacquard'ın otomatik dokuma tezgâhından 600 yıl önce değişik haznelerdeki suyun seviyesine göre ne zaman su dökeceğine, ne zaman meyve ve içecek sunacağına karar veren otomatik hizmetçiyi geliştirdi. Bazı makinelerinde hidro mekanik etkilerle denge kurma ve harekette bulunma sistemine yönelen Cezeri, bazılarında ise şamandıra ve palangalar arasında dişli çarklar kullanarak karşılıklı etkileme sistemini kurmaya çalıştı. Kendiliğinden çalışan otomatik sistemlerden sonra su gücü ve basınç etkisinden yararlanarak kendi kendine denge kuran ve ayarlama yapan dengeyi oluşturması, Cezeri'nin otomasyon konusundaki en önemli katkısıdır."
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+
+            <TextView
+                android:id="@+id/hezarfen_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hezarfen Çelebi (1609 - 1640)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/hezarfen_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/hezarfen"
+                    app:srcCompat="@drawable/hezarfen" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/hezarfen_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="300sp"
+                    android:layout_weight="1"
+                    android:text="Hezarfen binfenli veya bilimli anlamını taşımaktadır. Çevresinden de öğrenildiği üzere Çelebi'nin, bilgi seviyesinin oldukça yüksek olduğu ve fen bilimleri ile ilgilenmiş olduğu anlaşılmıştır."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/hezarfen_esas"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                android:text="Hezarfen Ahmed Çelebi, ilk önce İsmail Cevheri'nin başarısızlıkla sonuçlanan uçuş çalışmasını çok detaylı bir şekilde incelemiştir. Bunun yanında kuşların uçuşlarını takip etmiş ve kendisinin hazırlamış olduğu yapay kanatların dayanıklılık derecesini görebilmek için Okmeydanı’nda bir takım testler yapmıştır. Çelebi, lodoslu bir havada Galata Kulesi'nden hazırlamış olduğu kuş kanatlarına benzer bir ekipmanı takıp kendisini boşluğa bırakmış ve uçarak Üsküdar'a inmeyi başarmıştır."
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/sait_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sait AKPINAR(1913 - 2003)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/sait_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="335dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/sait"
+                    app:srcCompat="@drawable/sait" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/sait_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="335dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Türk Fizikçi,Türkiye’de deneysel fiziğin öncüsü olan bilim adamıdır. Uludağ’da Türkiye’nin ve Ortadoğu’nun ilk kozmik ışın araştırmaları laboratuvarını kuran bilim adamı, 1979-83 yılları arasında Fizik Bölümü Başkanlığı görevi yapmıştır. "
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/sait_esas"
+                android:layout_width="match_parent"
+                android:layout_height="268dp"
+                android:text="1957 yılında profesör olan Akpınar, 1956-57 yıllarında Atom Enerji Komisyonu Danışma Kurulu üyeliği ve Reaktör Kurulu üyeliği, 1956-61 yıllarında Milli Savunma Bakanlığı Bilimsel Danışma Kurulu üyeliği, 1961-69 yıllarında Çekmece Nükleer Araştırma ve Eğitim Merkezi Müdürlüğü görevlerini yürüttü. Atom Enerjisi Genel Sekreterliği’yle anlaşamadığı için 1969 yılında bu kurumdan istifa etti ve üniversiteye geri döndü. 1979’dan emekli olana kadar İstanbul Üniversitesi Fen Fakültesi Fizik Bölüm Başkanlığı görevinde bulundu ve katı hal fiziği üzerine lisans üstü dersler verdi. 1983 yılında emekliye ayrıldı."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <TextView
+                android:id="@+id/engin_arik_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engin ARIK(1948 - 2007)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/engin_arik_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/engin"
+                    app:srcCompat="@drawable/engin" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/engin_arik_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Engin Arık (14 Ekim 1948 - 30 Kasım 2007), Türk parçacık fizikçisisi ve Boğaziçi Üniversitesi Fizik Bölümü'nün eski profesörüydü. Toryum madeninin enerji sorununa temiz ve ekonomik bir çözüm olabileceği yolundaki görüşleri ile tanındı."
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/engin_arik_esas"
+                android:layout_width="match_parent"
+                android:layout_height="355dp"
+                android:text="1990'dan sonra CERN'deki çalışmalara katıldı. ATLAS ve CAST deneylerine katılan Türk bilim insanlarına liderlik yaptı. Arık deneysel yüksek enerji fiziği alanında yüzün üzerinde makale yayımlamış, yüzlerce atıf almıştır.Aynı zamanda Türk Ulusal Hızlandırıcı Projesi'nin de yürütücülüğünü yapan Arık, 30 Kasım 2007 tarihinde Isparta'daki uçak kazasında hayatını kaybetti. Edirnekapı Şehitliği'ne defnedildi.Sadece deneysel yüksek enerji fiziği alanında yaptığı çalışmalarla sınırlı kalmayan Arık, Türkiye'de çok önemli rezervleri bulunan toryum madeninin enerji sorununa temiz ve ekonomik bir çözüm olabileceği ve olması gerektiği yönündeki görüşleri ve çalışmalarıyla tanındı. "
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="57dp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

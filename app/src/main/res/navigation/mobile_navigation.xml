@@ -30,10 +30,10 @@
         tools:layout="@layout/fragment_kimya" />
 
     <fragment
-        android:id="@+id/nav_biyoloji"
-        android:name="com.cesebe.turkbilimadamlari.ui.fragmentbiyoloji.fragment_biyoloji"
-        android:label="@string/menu_biyoloji"
-        tools:layout="@layout/fragment_biyoloji" />
+        android:id="@+id/nav_tip"
+        android:name="com.cesebe.turkbilimadamlari.ui.tipfragment.tip_fragment"
+    android:label="@string/menu_tip"
+        tools:layout="@layout/fragment_tip_name_fragment" />
 
     <fragment
         android:id="@+id/nav_tarih"

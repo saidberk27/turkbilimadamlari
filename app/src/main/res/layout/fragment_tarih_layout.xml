@@ -7,14 +7,240 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragmenttarih.fragment_tarih">
 
-    <TextView
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fragment_tarih"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tarih_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türk Tarihçiler"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40sp" />
+
+            <TextView
+                android:id="@+id/cevdet_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahmet Cevdet Paşa(1823 - 1895)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cevdet_imaj"
+                    android:layout_width="232dp"
+                    android:layout_height="302dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/ahmed"
+                    app:srcCompat="@drawable/ahmed" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/cevdet_yan"
+                    android:layout_width="172dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text=" Bulgaristan’ın Lofça kasabasında doğdu. Asıl adı Ahmed olup Cevdet mahlasını İstanbul’da öğrenim gördüğü sırada şair Süleyman Fehîm Efendi’den almıştır (1843). Babası Lofça ileri gelenlerinden ve meclis âzasından “Istabl-ı Âmire pâyelisi” Hacı İsmâil Ağa, annesi yine Lofçalı Topuzoğlu hânedanından Ayşe Sümbül Hanım’dır."
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/cevdet_esas"
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:text="Tanzimat devrinin önde gelen şahsiyetlerinden olan Cevdet Paşa, son asır Türk-İslâm ilim âleminin mümtaz simalarından biridir. Ahmed Cevdet büyük bir devlet adamı olduğu kadar aynı zamanda tarihçi, hukukçu, mütefekkir, edip, eğitimci ve sosyologdur. Henüz genç bir medrese talebesiyken olağan üstü zekâsı, çalışkanlığı, bilgisi ve isabetli tahlilleriyle hocalarının dikkatini çekmiş, zaman zaman onlarla ilmî meselelerde tartışmalara girmiştir. Genç yaşta İslâmî ilimlerle birlikte Arapça ve Farsça’yı çok iyi bir şekilde öğrenirken Emîn Efendi adlı bir kişiden Fransızca dersleri de aldı. Bu ona kısmen Batı tarih kitaplarını ve kanunlarını okuma ve anlama imkânını vermiştir."
+                android:textSize="18dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+
+            <TextView
+                android:id="@+id/halil_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Halil İnalcık (1916 - 2016)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/halil_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/halil"
+                    app:srcCompat="@drawable/halil" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/halil_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="300sp"
+                    android:layout_weight="1"
+                    android:text="1923-1930 arasında Ankara Gazi Mektebi'nde, bir yıl Sivas Muallim Mektebi’ne devam etti.Orta tahsilini 1931’de Ankara’da Gazi Muallim Mektebi'nde tamamladıktan sonra Balıkesir Necati Bey Muallim Mektebi'nde lise tahsiline devam etti."
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/halil_esas"
+                android:layout_width="match_parent"
+                android:layout_height="344dp"
+                android:text=" 1936 yılında Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi Yeni Çağ Tarihi bölümünde yüksek öğrenimine başladı. 1940 yılında mezun olduktan sonra fakültede asistan olarak kaldı.İnalcık, çok iyi düzeyde Osmanlı Türkçesi, iyi düzeyde; İngilizce, Fransızca, Almanca, orta düzeyde de; Arapça, Farsça ve İtalyanca biliyordu.Dünyanın çeşitli üniversitelerinden çok sayıda fahri doktora tevcih edilen İnalcık, 20. yüzyıl sona ererken Cambridge'de bulunan Uluslararası Biyografi Merkezi tarafından dünyada sosyal bilimler alanında sayılı 2000 bilim adamı arasında gösterilmiştir"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/yavuz_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yavuz BAHADIROĞLU(1945-?)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/yavuz_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="335dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/yavuz"
+                    app:srcCompat="@drawable/yavuz" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/yavuz_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="335dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Yavuz Bahadıroğlu, Türk roman ve hikâye yazarı, gazeteci, radyo programcısı. 1971'de İstanbul’da gazeteciliğe başladı. Yeni Asya - Yeni Nesil gazetesinde muhabirlik, araştırma-inceleme, röportaj ve fıkra yazarlığı yaptı. Gazete, dergi ve şirket yöneticisi olarak çalıştı."
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/yavuz_esas"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:text=" Genelde Osmanlı İmparatorluğu’nun çeşitli dönemlerini ele alan otuzu aşkın romanı vardır. Son çıkan kitaplarından biri Biz Osmanlıyız'dır. Yavuz Bahadıroğlu, roman, çocuk kitapları, hikâye, araştırma, oyunlar, film yapılmış senaryolar ve fikri eserler olmak üzere yüzlerce çalışmaya imza attı. Yurt içinde ve yurt dışında çeşitli konularda binlerce konferans verdi, çeşitli kurum ve kuruluşlardan ödüller aldı, iki kitabı Kültür Bakanlığı tarafından yayımlandı."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <TextView
+                android:id="@+id/ilber_baslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İlber ORTAYLI(1947 - ?)"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ilber_imaj"
+                    android:layout_width="149dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/ilber"
+                    app:srcCompat="@drawable/ilber" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:id="@+id/ilber_yan"
+                    android:layout_width="100dp"
+                    android:layout_height="300sp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="21 Mayıs 1947 tarihinde Avusturya'nın Bregenz şehrinde Kırım Tatarı bir ailenin çocuğu olarak dünyaya geldi. İki yaşındayken ailesiyle birlikte Türkiye'ye göç etti. İlk ve orta öğrenimini İstanbul Avusturya Lisesi'nde tamamladı. 1965 yılında Ankara Atatürk Lisesi'nden mezun oldu."
+                    android:textSize="16.5dp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/lale_esas"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:text="Prof. Dr. İlber Ortaylı, Osmanlı Tarihinde Aile isimli eserinin yanı sıra, tarih alanında 1970’li yılların başlarından itibaren yaptığı çalışmaları, yayınladığı makaleler ve kitapları, tarih biliminin yaygınlaştırılması çabaları, tarihi her yaştan Türk insanına sevdirme konusundaki faaliyetleri, yurtdışındaki bilimsel etkinlikleri ve Türk tarihçiliğinin uluslararası alanda önemli bir ismi olması da göz önüne alınarak tarih dalında 2001 Aydın Doğan Ödülü'ne layık bulundu."
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="57dp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
