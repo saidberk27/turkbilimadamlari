@@ -30,7 +30,7 @@
             <TextView
                 android:id="@+id/kasgar_baslik"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:text="Kaşgarlı Mahmut (1008-1105)"
                 android:textSize="28sp" />
 
@@ -70,7 +70,7 @@
             <TextView
                 android:id="@+id/kasgar_esas"
                 android:layout_width="match_parent"
-                android:layout_height="308dp"
+                android:layout_height="wrap_content"
                 android:text="Dîvânü Lugâti't-Türk isimli, dünyaca bilinen eserin yazarıdır. Eserini 1072 yılında Bağdat’ta yazmaya başladı. 12 Şubat 1074 tarihinde tamamladı. Eserin tamamlanmasından sonraki iki yıl içerisinde dört defa baştan sona gözden geçirerek 1076‘da son şeklini verdi. 1077 Ocağında bitirilmiştir. Eserini Abbasi Halifesi Muktedî-Biemrillah’ın oğlu Ebü’l-Kasım Abdullah’a sunmuştur. Kitabın tek yazması olan nüsha bugün İstanbul’da Millet Kütüphanesinde muhafaza edilmektedir."
                 android:textSize="18sp" />
 
@@ -124,7 +124,7 @@
             <TextView
                 android:id="@+id/piri_esas"
                 android:layout_width="match_parent"
-                android:layout_height="235dp"
+                android:layout_height="wrap_content"
                 android:text="Pîrî, denizciliğe amcası Kemal Reis'in yanında başladı; 1487-1493 yılları arasında birlikte Akdeniz'de korsanlık yaptılar; Sicilya, Korsika, Sardunya ve Fransa kıyılarına yapılan akınlara katıldılar. 1486'da Endülüs'te Müslümanların hâkimiyetindeki son şehir olan Gırnata'da katliama uğrayan Müslümanlar Osmanlı Devleti'nden yardım isteyince o yıllarda deniz aşırı sefere çıkacak donanması bulunmayan Osmanlı Devleti, Kemal Reis'i Osmanlı Bayrağı altında İspanya'ya gönderdi. Bu sefere katılan Pîrî Reis, amcası ile birlikte Müslümanları İspanya'dan Kuzey Afrika'ya taşıdı."
                 android:textSize="18sp" />
 
@@ -178,7 +178,7 @@
             <TextView
                 android:id="@+id/matrak_esas"
                 android:layout_width="match_parent"
-                android:layout_height="187dp"
+                android:layout_height="wrap_content"
                 android:text="Bosna'nın Visoko kasabasında doğan Matrakçı Nasuh,hem Piyade hem de Devşirme sisteminden geçen yetenekli bir Yeniçeri, kılıç ustası ve zekasıyla tanınan keskin nişancıydı. Beş dil biliyordu ve Osmanlı donanması'na katıldı."
                 android:textSize="18sp" />
 
@@ -232,7 +232,7 @@ Aynı zamanda da bir Divan şairi olan Seydi Ali Reis, şiirlerinde İstanbul T�
             <TextView
                 android:id="@+id/seydi_esas"
                 android:layout_width="match_parent"
-                android:layout_height="309dp"
+                android:layout_height="wrap_content"
                 android:text="Sinoplu denizci bir ailenin oğlu olarak 1492'de, Galata İstanbul'da doğdu. Dedesi, Fatih Sultan Mehmet zamanında tersane kethüdalığında görev yapmıştır. Babası Hüseyin Ağa ise kendi zamanında Darüssınaa Kethüdalığı'nda bulunmuştu. Kendisi de tersanede reis olarak çalışmakla birlikte devrin hükümdarının Akdeniz'e olan ilgisi münasebetiyle birçok sefere çıkma şansı yakaladı."
                 android:textSize="17sp" />
 

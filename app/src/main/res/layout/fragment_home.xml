@@ -7,14 +7,74 @@
 
 
     <TextView
-        android:id="@+id/NASIL KULLANILIR?"
+        android:id="@+id/nasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="SEMERKAND"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="SEMERKAND'A"
         android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/hosgeldiniz"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hosgeldiniz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="HOŞ GELDİNİZ!"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nasil" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="GEÇMİŞTE YAŞAMIŞ YA DA GÜNÜMÜZDE YAŞAMAKTA OLAN TÜRK BİLİM ADAMLARINI ESNEK,SADE VE KOLAY BİR ŞEKİLDE TANITMAK AMACIYLA HAZIRLANMIŞTIR."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hosgeldiniz" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="İSMİNİ KADİM TÜRK ŞEHRİ,BİLİMİN DOĞUMEVİ OLAN SEMERKAND'DAN ALAN UYGULAMAMIZ TÜRKLERİN BİLİME VE İNSANLIĞA KATKILARINI GÖZLER ÖNÜNE SERMEKTEDİR"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="417dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="UYGULAMAMIZIN NASIL KULLANILDIĞI AŞAĞIDAKİ VİDEODA TARİF EDİLMEKTEDİR.BİLİMLE KALIN!"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text='NOT:Teknik Detaylar ve Diğer Ayrıntılar İçin Açılır Menümüzün En Altında Bulunan "Proje Hakkında" Sekmesine Lütfen Göz Atın.'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
