@@ -7,34 +7,34 @@
 
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/home"
             android:title="@string/menu_home" />
 
         <item
             android:id="@+id/nav_matematik"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/calculator"
             android:title="@string/menu_matematik" />
         <item
             android:id="@+id/nav_fizik"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/science"
             android:title="@string/menu_fizik" />
         <item
             android:id="@+id/nav_kimya"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/lab"
             android:title="@string/menu_kimya" />
         <item
             android:id="@+id/nav_tip"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/pill"
             android:title="@string/menu_tip" />
 
         <item
             android:id="@+id/nav_tarih"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/scroll"
             android:title="@string/menu_tarih" />
 
         <item
             android:id="@+id/nav_cografya"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/world"
             android:title="@string/menu_cografya" />
 
     </group>
@@ -43,7 +43,7 @@
         <menu>
             <item
                 android:id="@+id/nav_proje"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/project"
                 android:title="@string/menu_proje" />
 
         </menu>
