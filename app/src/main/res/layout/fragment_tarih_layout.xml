@@ -71,7 +71,7 @@
             <TextView
                 android:id="@+id/cevdet_esas"
                 android:layout_width="match_parent"
-                android:layout_height="341dp"
+                android:layout_height="wrap_content"
                 android:text="Tanzimat devrinin önde gelen şahsiyetlerinden olan Cevdet Paşa, son asır Türk-İslâm ilim âleminin mümtaz simalarından biridir. Ahmed Cevdet büyük bir devlet adamı olduğu kadar aynı zamanda tarihçi, hukukçu, mütefekkir, edip, eğitimci ve sosyologdur. Henüz genç bir medrese talebesiyken olağan üstü zekâsı, çalışkanlığı, bilgisi ve isabetli tahlilleriyle hocalarının dikkatini çekmiş, zaman zaman onlarla ilmî meselelerde tartışmalara girmiştir. Genç yaşta İslâmî ilimlerle birlikte Arapça ve Farsça’yı çok iyi bir şekilde öğrenirken Emîn Efendi adlı bir kişiden Fransızca dersleri de aldı. Bu ona kısmen Batı tarih kitaplarını ve kanunlarını okuma ve anlama imkânını vermiştir."
                 android:textSize="18dp" />
 
@@ -125,7 +125,7 @@
             <TextView
                 android:id="@+id/halil_esas"
                 android:layout_width="match_parent"
-                android:layout_height="344dp"
+                android:layout_height="wrap_content"
                 android:text=" 1936 yılında Ankara Üniversitesi Dil ve Tarih-Coğrafya Fakültesi Yeni Çağ Tarihi bölümünde yüksek öğrenimine başladı. 1940 yılında mezun olduktan sonra fakültede asistan olarak kaldı.İnalcık, çok iyi düzeyde Osmanlı Türkçesi, iyi düzeyde; İngilizce, Fransızca, Almanca, orta düzeyde de; Arapça, Farsça ve İtalyanca biliyordu.Dünyanın çeşitli üniversitelerinden çok sayıda fahri doktora tevcih edilen İnalcık, 20. yüzyıl sona ererken Cambridge'de bulunan Uluslararası Biyografi Merkezi tarafından dünyada sosyal bilimler alanında sayılı 2000 bilim adamı arasında gösterilmiştir"
                 android:textSize="18sp" />
 
@@ -179,7 +179,7 @@
             <TextView
                 android:id="@+id/yavuz_esas"
                 android:layout_width="match_parent"
-                android:layout_height="214dp"
+                android:layout_height="wrap_content"
                 android:text=" Genelde Osmanlı İmparatorluğu’nun çeşitli dönemlerini ele alan otuzu aşkın romanı vardır. Son çıkan kitaplarından biri Biz Osmanlıyız'dır. Yavuz Bahadıroğlu, roman, çocuk kitapları, hikâye, araştırma, oyunlar, film yapılmış senaryolar ve fikri eserler olmak üzere yüzlerce çalışmaya imza attı. Yurt içinde ve yurt dışında çeşitli konularda binlerce konferans verdi, çeşitli kurum ve kuruluşlardan ödüller aldı, iki kitabı Kültür Bakanlığı tarafından yayımlandı."
                 android:textSize="16sp" />
 
@@ -232,7 +232,7 @@
             <TextView
                 android:id="@+id/lale_esas"
                 android:layout_width="match_parent"
-                android:layout_height="248dp"
+                android:layout_height="wrap_content"
                 android:text="Prof. Dr. İlber Ortaylı, Osmanlı Tarihinde Aile isimli eserinin yanı sıra, tarih alanında 1970’li yılların başlarından itibaren yaptığı çalışmaları, yayınladığı makaleler ve kitapları, tarih biliminin yaygınlaştırılması çabaları, tarihi her yaştan Türk insanına sevdirme konusundaki faaliyetleri, yurtdışındaki bilimsel etkinlikleri ve Türk tarihçiliğinin uluslararası alanda önemli bir ismi olması da göz önüne alınarak tarih dalında 2001 Aydın Doğan Ödülü'ne layık bulundu."
                 android:textSize="17sp" />
 

@@ -70,7 +70,7 @@
             <TextView
                 android:id="@+id/harezmi_esas"
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
+                android:layout_height="wrap_content"
                 android:text="Cezeri, otomatik kontrollü makinelerin ilki sayılan Jacquard'ın otomatik dokuma tezgâhından 600 yıl önce değişik haznelerdeki suyun seviyesine göre ne zaman su dökeceğine, ne zaman meyve ve içecek sunacağına karar veren otomatik hizmetçiyi geliştirdi. Bazı makinelerinde hidro mekanik etkilerle denge kurma ve harekette bulunma sistemine yönelen Cezeri, bazılarında ise şamandıra ve palangalar arasında dişli çarklar kullanarak karşılıklı etkileme sistemini kurmaya çalıştı. Kendiliğinden çalışan otomatik sistemlerden sonra su gücü ve basınç etkisinden yararlanarak kendi kendine denge kuran ve ayarlama yapan dengeyi oluşturması, Cezeri'nin otomasyon konusundaki en önemli katkısıdır."
                 android:textSize="17sp" />
 
@@ -124,7 +124,7 @@
             <TextView
                 android:id="@+id/hezarfen_esas"
                 android:layout_width="match_parent"
-                android:layout_height="277dp"
+                android:layout_height="wrap_content"
                 android:text="Hezarfen Ahmed Çelebi, ilk önce İsmail Cevheri'nin başarısızlıkla sonuçlanan uçuş çalışmasını çok detaylı bir şekilde incelemiştir. Bunun yanında kuşların uçuşlarını takip etmiş ve kendisinin hazırlamış olduğu yapay kanatların dayanıklılık derecesini görebilmek için Okmeydanı’nda bir takım testler yapmıştır. Çelebi, lodoslu bir havada Galata Kulesi'nden hazırlamış olduğu kuş kanatlarına benzer bir ekipmanı takıp kendisini boşluğa bırakmış ve uçarak Üsküdar'a inmeyi başarmıştır."
                 android:textSize="18sp" />
 
@@ -177,7 +177,7 @@
 
             <TextView
                 android:id="@+id/sait_esas"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="268dp"
                 android:text="1957 yılında profesör olan Akpınar, 1956-57 yıllarında Atom Enerji Komisyonu Danışma Kurulu üyeliği ve Reaktör Kurulu üyeliği, 1956-61 yıllarında Milli Savunma Bakanlığı Bilimsel Danışma Kurulu üyeliği, 1961-69 yıllarında Çekmece Nükleer Araştırma ve Eğitim Merkezi Müdürlüğü görevlerini yürüttü. Atom Enerjisi Genel Sekreterliği’yle anlaşamadığı için 1969 yılında bu kurumdan istifa etti ve üniversiteye geri döndü. 1979’dan emekli olana kadar İstanbul Üniversitesi Fen Fakültesi Fizik Bölüm Başkanlığı görevinde bulundu ve katı hal fiziği üzerine lisans üstü dersler verdi. 1983 yılında emekliye ayrıldı."
                 android:textSize="16sp" />
@@ -231,7 +231,7 @@
             <TextView
                 android:id="@+id/engin_arik_esas"
                 android:layout_width="match_parent"
-                android:layout_height="355dp"
+                android:layout_height="wrap_content"
                 android:text="1990'dan sonra CERN'deki çalışmalara katıldı. ATLAS ve CAST deneylerine katılan Türk bilim insanlarına liderlik yaptı. Arık deneysel yüksek enerji fiziği alanında yüzün üzerinde makale yayımlamış, yüzlerce atıf almıştır.Aynı zamanda Türk Ulusal Hızlandırıcı Projesi'nin de yürütücülüğünü yapan Arık, 30 Kasım 2007 tarihinde Isparta'daki uçak kazasında hayatını kaybetti. Edirnekapı Şehitliği'ne defnedildi.Sadece deneysel yüksek enerji fiziği alanında yaptığı çalışmalarla sınırlı kalmayan Arık, Türkiye'de çok önemli rezervleri bulunan toryum madeninin enerji sorununa temiz ve ekonomik bir çözüm olabileceği ve olması gerektiği yönündeki görüşleri ve çalışmalarıyla tanındı. "
                 android:textSize="17sp" />
 

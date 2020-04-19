@@ -124,7 +124,7 @@
             <TextView
                 android:id="@+id/kuscu_esas"
                 android:layout_width="match_parent"
-                android:layout_height="187dp"
+                android:layout_height="wrap_content"
                 android:text="Elçilik yapmak için İstanbul’a geldiğinde Fatih Sultan Mehmet’le tanışmış, sultana çalışmalarından bahsetmiştir. Bunun üzerine Fatih, kendisini İstanbul’da yaşaması için ikna etmiştir.Matematik ve astronomi alanında medresede ders veren Ali Kuşçu bu alanda pek çok öğrenci yetiştirerek Osmanlı’da bilimin gelişmesine önemli katkılarda bulundu."
                 android:textSize="18sp" />
 
@@ -178,7 +178,7 @@
             <TextView
                 android:id="@+id/cahitarf_esas"
                 android:layout_width="match_parent"
-                android:layout_height="187dp"
+                android:layout_height="wrap_content"
                 android:text="Arf İnönü Armağanı’nı (1948) ve Tübitak Bilim Ödülü’nü kazandı (1974). Cebir ve Sayılar Teorisi üzerine uluslararası bir sempozyum 1990′da 3 ve 7 Eylül tarihleri arasında Arf’in onuruna Silivri’de gerçekleştirilmiştir. Halkalar ve Geometri üzerine ilk konferanslarda 1984′te İstanbul’da yapılmıştır. Arf, matematikte geometri kavramı üzerine bir makale sunmuştur. Cahit Arf 1997 yılının Aralık ayında bir kalp rahatsızlığı nedeniyle aramızdan ayrıldı."
                 android:textSize="16sp" />
 
@@ -231,7 +231,7 @@
             <TextView
                 android:id="@+id/kerim_erim_esas"
                 android:layout_width="match_parent"
-                android:layout_height="228dp"
+                android:layout_height="wrap_content"
                 android:text="Kerim Erim, Türkiye'de yüksek matematik öğretiminin yaygınlaşmasında ve çağdaş matematiğin yerleşmesinde etkin rol oynadı. Matematik ve fizik bilimlerinin felsefe ile olan ilişkileri üzerinde de çalışmalarda bulunan Erim’in Almanca ve Türkçe eserleri bulunmaktadır. Ürünleriyle matematikte bir Türk okulu kurmaya çalıştı. Yetenekli öğrencilere yurtdışında öğrenim olanakları yaratarak genç bir matematikçi kuşağının yetişmesi konusunda uğraş verdi."
                 android:textSize="17sp" />
 

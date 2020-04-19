@@ -71,7 +71,7 @@
             <TextView
                 android:id="@+id/sina_esas"
                 android:layout_width="match_parent"
-                android:layout_height="241dp"
+                android:layout_height="wrap_content"
                 android:text="İbn-i Sina, Kuşyar isimli bir hekimin yanında tıp eğitimi aldı. Değişik konular üzerine 240'ı günümüze gelen 450 kadar makale yazdı. Elimizdeki yazıların 150 tanesi felsefe 40 tanesi de tıp üzerinedir. Eserlerinin en ünlüleri felsefe ve fen konularını içeren çok geniş bir çalışma olan Kitabü'ş-Şifa (İyileşme Kitabı) ile El-Kanun fi't-Tıb'dır (Tıbbın Kanunu). Bu iki eser Orta Çağ üniversitelerinde okutulmuştur. Hatta bu eser Montpellier ve Louvain'de 1650 yılına kadar ders kitabı olmuştur."
                 android:textSize="18dp" />
 
@@ -97,7 +97,7 @@
                 <ImageView
                     android:id="@+id/aksemsettin_imaj"
                     android:layout_width="149dp"
-                    android:layout_height="300sp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:layout_weight="1"
                     android:src="@drawable/ak"
@@ -125,7 +125,7 @@
             <TextView
                 android:id="@+id/aksemsettin_esas"
                 android:layout_width="match_parent"
-                android:layout_height="372dp"
+                android:layout_height="wrap_content"
                 android:text="Akşemseddin, bilim'de ve tasavvufta olduğu gibi, tıp ve eczacılık alanında da büyük bir üne sahipti. Fakat kaynaklarda Akşemseddin'in tıp ilmini kimden ve nasıl öğrendiğine dair net bir bilgi yoktur. Bununla alâkalı İskoç oryantalist Elias John Gibb, History of Ottoman Poetry adlı eserinde, Akşemseddin'in tıp alanındaki ilmini, Hacı Bayram Veli ile beraber olduğu yıllarda elde ettiğini kaydetmekte ve kendisinden âlim ve mübarek bir kimse diye söz etmektedir. Sadece beden hastalıkların değil, aynı zamandan ruh hastalıklarının da hekimi olan Akşemseddin, ruh hastalıklarını da tedâvi ederdi."
                 android:textSize="18sp" />
 
@@ -179,7 +179,7 @@
             <TextView
                 android:id="@+id/gazi_esas"
                 android:layout_width="match_parent"
-                android:layout_height="214dp"
+                android:layout_height="wrap_content"
                 android:text="Mikrosinir cerrahisinin kurucusu olan Gazi Yaşargil 'Beyin ve Sinir Cerrahı', 'Profesör Doktor', 'Yüzyılın Beyin Cerrahı'unvanlarına sahiptir. Yaşargil epilepsi ve beyin tümörünü kendi bulduğu yöntemlerle tedavi etmiş. 1953'ten emekli olduğu 1999 tarihine dek Zürih Üniversitesi ve Zürih Üniversite Hastanesindeki Sinir cerrahisi Departmanında ilk hekim, başhekim, sonrasında profesör ve başkan olmuştur. 1999'da Geleneksel Sinir Cerrahları Kongresinde 'Yüzyılın Sinir Cerrahı' (1950-1999) seçilmiştir."
                 android:textSize="16sp" />
 
@@ -233,7 +233,7 @@
             <TextView
                 android:id="@+id/lale_esas"
                 android:layout_width="match_parent"
-                android:layout_height="248dp"
+                android:layout_height="wrap_content"
                 android:text="
 Halen Avrupa Ateroskleroz Derneği genel sekreterliği, Dünya Ateroskleroz Derneği Avrupa Federasyon başkanlığı ve Türk Kardiyoloji Derneği başkan yardımcılığı görevlerini yürütmektedir. Ayrıca Avrupa Kardiyoloji Derneği Ateroskleroz çalışma grubu başkan yardımcısıdır.Avrupa Kardiyoloji Derneği Araştırma ve burs komisyonunda yer almaktadır.European Science Foundation’un türkiye temsilcisidir.ve Hacettepe Üniversitesi'nde öğretim görevlisi olarak görev yapmaktadır.
 "

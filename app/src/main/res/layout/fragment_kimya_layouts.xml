@@ -77,7 +77,7 @@
                 <TextView
                     android:id="@+id/cabir_esas"
                     android:layout_width="match_parent"
-                    android:layout_height="347dp"
+                    android:layout_height="wrap_content"
                     android:text="Kimya dışında Eczacılık, Metalürji, Astroloji, Felsefe, Fizik ve Müzik gibi geniş alanda 400 ü aşan eser bıraktığı söylense de ancak 20 civarında eseri bugüne kalmıştır.  Nitrik asit, Hidrojen klorür ve Sülfürik asit'in rafine ve kristalize yöntemlerini bulduğu Kral suyu'nu icat ettiği ve Sitrik asit, Asetik asit ve Tartarik asiti keşfetiği düşünülmektedir. İmbiği geliştirmiş ve kendisinin ortaya attığı Baz kavramıyla Kimya'nın gelişmesine katkıda bulunmuştur. Ayrıca daha sonra zehirlilerin zehirlisi olan arsenik tozunu elde eden ilk kişidir. Agathondaemon, Hermes Trismegistus, Pisagor ve Sokrates'i saydığı ve Eski Yunan, Eski Mısır ve Şia Sufizminden etkilendiği düşünülmektedir."
                     android:textSize="17sp" />
 
@@ -131,7 +131,7 @@
                 <TextView
                     android:id="@+id/razi_esas"
                     android:layout_width="match_parent"
-                    android:layout_height="445dp"
+                    android:layout_height="wrap_content"
                     android:text="Razî eczacılık, simya, müzik ve felsefe dallarında son derece önemli katkılar yapmıştır. Farklı alanlarla alakalı yaklaşık 200 kitap ve makalesi vardır.Pediyatri'nin babası olarak bilinir.Ayrıca göz bilimleri konusunda da otorite kabul edilmiştir. Alkol ve gazyağını bulan ve çiçek hastalığını kızamıktan farklı olduğunu ilk keşfeden kişidir.İngiliz oryantalist Edward Granville Brown'a göre tüm zamanların en yetkin bilim insanlarından biridir.Daha çok tıp-eczacılık alanındaki başarısıyla tanınmıştır. İS 750 yılından sonra Türk ve Pers kültürlerinin katılmasıyla kozmopolit bir hal alan İslam medeniyeti her alanda ilerleme kaydetmeye başlamıştır. Bu dönemde birçok İslam şehrinde büyük kütüphaneler kurulmuştur. Bunlar aynı zamanda araştırma merkezleriydi."
                     android:textSize="18sp" />
 
@@ -185,7 +185,7 @@
                 <TextView
                     android:id="@+id/cahitarf_esas"
                     android:layout_width="match_parent"
-                    android:layout_height="277dp"
+                    android:layout_height="wrap_content"
                     android:text="1997 yılında Yale'den emekli olmasının ardından Yıldız Teknik Üniversitesi'nde profesör olarak çalışmaya başladı ve 2002 senesinde kadar Yıldız Teknik Üniversitesi kimya bölümünde çalışmaya devam etti.Sinanoğlu birçok bilimsel kitap ve makale yazdı ve birçoklarına da katkıda bulundu. Ayrıca 'Hedef Türkiye' ve 'Bye Bye Türkçe' (2005) gibi eserlere de imza attı.Yaşamı boyunca kuantum mekaniğine birçok katkıda bulundu. P.A.M. Dirac'in de üzerinde uğraştığı ancak çözemediği 'Kuantum mekaniği'nde Hilbert uzayının topolojisi ve içerdiği yüksek simetrileri problemini çözdü."
                     android:textSize="16sp" />
 
@@ -238,7 +238,7 @@
                 <TextView
                     android:id="@+id/aziz_sancar_esas"
                     android:layout_width="match_parent"
-                    android:layout_height="439dp"
+                    android:layout_height="wrap_content"
                     android:text="DNA onarımı, hücre dizilimi, kanser tedavisi ve biyolojik saat üzerinde çalışmalarını sürdüren Sancar, 415 bilimsel makale ve 33 kitap yayınladı. Sancar, kanser tedavisinde sirkadiyen saat kullanımıyla ödüller aldı. 2001 yılında Amerikan Kimya Cemiyeti tarafından verilen Kuzey Carolina Seçkin Kimyager Ödülü'nü almaya hak kazanan Sancar, 2005 yılında bilim dünyasının en prestijli üyelikleri arasında yer alan ABD Ulusal Bilimler Akademisi’ne seçilerek bu akademiye seçilen ilk Amerikalı Türk oldu. Bu ödülü aldıktan sonra, ABD'de okuyan Türk öğrencilerine yardım etmek ve Türk-Amerikan ilişkilerini geliştirmek amacıyla eşiyle birlikte Aziz Gwen Sancar Vakfı'nı kurarak ABD'nin Kuzey Carolina eyaletinde 'Carolina Türk Evi' isimli bir öğrenci misafirhanesi açtı. 2006 yılında Türkiye Bilimler Akademisi’ne aslî üye olarak seçildi."
                     android:textSize="17sp" />
 
